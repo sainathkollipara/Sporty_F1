@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+app:
+  provider:
+    mode: stub
+    base-url: http://provider-url-placeholder
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - [corrId:%X{correlationId}] %msg%n"
